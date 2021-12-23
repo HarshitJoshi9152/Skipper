@@ -2,7 +2,7 @@
     "manifest_version":2,
     "name": "Eris",
     "description": "Meant to skip youtube ads on pressing `s` key, kinda like netflix !",
-    "Author": "harshit Joshi",
+    "author": "harshit Joshi",
     "version": "0.1",
     "content_scripts": [
         {
