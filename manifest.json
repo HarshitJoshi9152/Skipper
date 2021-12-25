@@ -1,6 +1,6 @@
 {
     "manifest_version":2,
-    "name": "Eris",
+    "name": "Skipper",
     "description": "Meant to skip youtube ads on pressing `s` key, kinda like netflix !",
     "author": "harshit Joshi",
     "version": "0.1",
@@ -11,6 +11,14 @@
             ],
             "js": ["content.js"]
         }
-    ]
+    ],
+    "background":{
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "arataka.jpeg",
+        "default_title": "eris",
+        "default_popup": "popup/pop.html"
+    }
 
 }
